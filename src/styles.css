@@ -1,0 +1,110 @@
+.container {
+  display: flex;
+  padding: 20px 20px;
+  width: 50%;
+  height: auto;
+  background-color: white;
+  margin: 10vh auto;
+  border-radius: 20px;
+}
+.card-container{
+  margin: 10vh 0 0;
+}
+
+.container-text {
+  padding: 10px 30px;
+  align-items: center;
+  font-size: small;
+}
+.container-text h1{
+font-size: 42px;
+}
+.container-image img {
+  float: right;
+  max-width: 100%;
+}
+
+.icon-text-container {
+  padding: 5px 0px;
+  display: flex;
+  align-items: center;
+}
+.icon-text-container p{
+  font-size: 12px;
+}
+
+.image-container {
+  margin-right: 10px;
+}
+
+.image-container img {
+  width: 16px;
+  height: 16px;
+}
+
+.icon-text-container-2{
+  float: left; /* Float left */
+  margin-top: 30px;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+.input-form {
+  color: #888; 
+  border: 1px solid #ccc; 
+  border-radius: 5px;
+  padding: 15px;
+  width: calc(100% - 30px); 
+}
+.container-button {
+  text-decoration: none;
+  font-size: 14px;
+  border-radius: 5px;
+  color: white;
+  padding: 15px 10px;
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  margin: 5px 28px; 
+  background-color: hsl(234, 29%, 20%);
+  width: calc(90% - 40px); 
+}
+
+.container-button p{
+  font-size: 14px;
+  margin: 0;
+}
+
+.container-button:hover {
+  cursor: pointer;
+}
+
+.invalid-email {
+  border-color: red;
+  background-color: #ffd0d0;
+}
+
+.invalid-email-message {
+  color: red;
+  font-weight: normal;
+  font-size: small;
+  float: right; /* Float right */
+}
+
+@media (max-width: 600px) {
+  .container {
+    padding: 10px;
+    max-width: 90%;
+    border-radius: 10px;
+  }
+
+  .container-image img {
+    float: none; /* Remove float to allow the image to take full width */
+    margin: 10px auto; /* Center the image and provide some margin */
+    display: block; /* Ensure the image takes full width */
+  }
+
+  .container-button {
+    margin: 15px auto;
+  }
+}

@@ -1,0 +1,27 @@
+.containers {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+  
+.container-card img{
+    width: 60px;
+}
+
+  .container-card {
+    padding: 3rem;
+    width: 100%; /* Set width to 70% of viewport width */
+    max-width: 300px; /* Set maximum width */
+    background-color: white;
+    border-radius: 20px;
+  }
+
+  .container-button {
+    margin-top: 20px;
+  }
+  
